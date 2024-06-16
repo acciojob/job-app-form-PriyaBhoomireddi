@@ -3,11 +3,66 @@
 <html>
 
 <head>
+	<title>Job Application Form</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<Form method="post">
+		<div>
+			<label for="name">Name:</label>
+			<input type="text" id="text" placeholder="Enter your name" required>
+		</div>
+		<br>
+		<div>
+			<label for="email">Email:</label>
+			<input type="email" id="email" placeholder="Enter your email" required>
+		</div>
+		<br>
+		<div>
+		<label>Gender:</label><br>
+            <input type="radio" id="gender_m" name="gender" value="male" required>
+            <label for="gender_m">Male</label><br>
+            <input type="radio" id="gender_f" name="gender" value="female" required>
+            <label for="gender_f">Female</label>
+			</div>
+		<br>
+		<div>
+			<label for="laptop brands">Laptop Brands:</label>
+			<select id="Laptop Brands" name="Laptop Brands">
+ <option value="" disabled selected>--Please choose an option</option>
+                <option value="apple">Apple</option>
+                <option value="asus">Asus</option>
+                <option value="hp">HP</option>
+				</select>
+		</div>
+	<br>
+		<div>
+			<label for="age">Age:</label>
+			<input type="number" id="age" placeholder="Age"required>
+		</div>
+		<br>
+		<div>
+			<label for="dob">Date of Birth:</label>
+			<input type="date" id="dob" required>
+		</div>
+		<br>
+		<div>
+			<label for="password">Password:</label>
+			<input type="password" id="password" required>
+		</div>
+		<br>
+		<div>
+			<label for="portfolio url">Portfolio URL</label>
+			<input type="url" id="portfolio" required>
+		</div>
+		<br>
+		<div>
+			<input type="button" value="Submit">
+		</div>
+	</Form>
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
